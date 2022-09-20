@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #988dc9;
+}
+
+#app {
+	background-color: white;
+	border-radius: 8px;
+	padding: 15px 60px;
+	margin-top: 20px;
+	min-height: 300px;
+	max-width: 250px;
+}
+
+#todo-title {
+	background-color: #61fac8;
+	text-align: center;
+}
+
+#todo-subtitle {
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#todo-input {
+	padding: 6px;
+	margin-bottom: 40px;
+}
+
+#todo-output {
+	margin: 0;
+	padding: 0;
+}
+
+.todo-list {
+	height: auto;
+	word-wrap: break-word;
+}
